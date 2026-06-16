@@ -1,0 +1,129 @@
+.section-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 8px;
+  margin-bottom: 18px;
+
+  background: linear-gradient(
+    90deg,
+    #38bdf8,
+    #818cf8,
+    #ec4899
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  position: relative;
+}
+.section-title::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    #b4fa32,
+    #2a9b30
+  );
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+
+.card-header{
+
+  font-size: 25px;
+  background: linear-gradient(90deg,#2563eb,#7c3aed);
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-header img{
+width: 25px;
+  height: auto;
+}
+.card-list{
+    text-align:left;
+  padding-left:25px;
+}
+.card-text{
+      text-align:left;
+}
+.duration{
+  
+  color:rgb(10, 10, 10);
+  padding:5px 4px;
+   margin-left: 87%;
+   
+}
+.location{
+   color:rgb(249, 246, 246);
+   font-weight: 400;
+  padding:5px 4px;
+  margin-top: 0px;
+   margin-left: 83%;
+   border: 2px solid rgb(6, 6, 6);
+   border-radius: 12px;
+   background-color: rgba(40, 193, 203, 0.868);
+}
+
+.tech-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.tech-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2563eb;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.tech-title::after {
+  content: "";
+  width: 50%;
+  height: 3px;
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  position: absolute;
+  left: 20%;
+  bottom: -8px;
+  border-radius: 5px;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 11px;
+}
+
+.tech-stack span {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: default;
+  margin-bottom: 20px;
+}
+
+.tech-stack span:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(37, 99, 235, 0.4);
+}
+.experience-btn{
+   display: flex;
+  justify-content: center;
+  gap: 15px
+  
+}
+
