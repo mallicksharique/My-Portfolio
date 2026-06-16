@@ -24,15 +24,16 @@ const router = createBrowserRouter([
     element: <Projects />,
   },
   {
-    path:"/experience",
-    element: <Experience/>
-
+    path: "/experience",
+    element: <Experience />
   },
   {
     path: "/contact",
     element: <Contact />,
   },
-]);
+], {
+  basename: "/My-Portfolio", // <-- Yeh object yahan add karna tha taaki GitHub Pages routes ko dhoondh sake
+});
 
 function App() {
   return <RouterProvider router={router} />;
