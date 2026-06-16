@@ -1,16 +1,68 @@
-# React + Vite
+# 🚀 Premium React Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio repository! This is a modern, single-page web application designed and built from scratch using **React.js**, **Vite**, and **Redux Toolkit** to showcase my professional software development experience, core technical skills, and key engineering projects.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [https://mallicksharique.github.io/My-Portfolio/](https://mallicksharique.github.io/My-Portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features & UI/UX Highlights
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Premium Dark Theme:** Engineered with a sleek, high-end slate-dark aesthetic featuring professional color consistency and subtle background glows.
+* **100% Responsive Design:** Smooth fluid layouts optimized perfectly across all mobile, tablet, and desktop viewports.
+* **Flawless Client-Side Routing:** Powered by `react-router-dom` (Data Architecture Router) with configured basename to handle instantaneous view switches without hard browser refreshes.
+* **Web Accessibility Compliant:** Configured contrast tuning scales and structured responsive typography hierarchy ensuring WCAG alignment.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack & Architecture
+
+* **Frontend Ecosystem:** React.js (v18+), Redux Toolkit (Global State Management), JavaScript (ES6+).
+* **Styling & Structure:** HTML5, CSS3 Custom Properties, Grid/Flexbox layouts, and Bootstrap.
+* **Bundler & Tools:** Vite (Ultra-fast local builds and optimizations), Git, VS Code.
+* **Hosting Platform:** Deployed via production-ready automated workflows on GitHub Pages.
+
+---
+
+## 💻 Sections Included
+
+1.  **Home / Hero:** Catchy professional greeting with technical orientation.
+2.  **About Me:** Introduction highlighting the journey from Computer Science graduate (UEM Jaipur) to enterprise workflow automation and modern web interfaces.
+3.  **Skills:** Interactive categorized representation of Web Technologies and Enterprise Pega PRPC frameworks.
+4.  **Experience:** Chronological breakdown of my developer tenure at **Fucient Consulting Services**.
+5.  **Projects:** Production-level showcases including a fully interactive **Myntra Clone** and this live portfolio application.
+6.  **Contact:** Form and clean actionable social channels for swift professional communication.
+
+---
+
+## 🚀 Local Setup & Installation
+
+To run this portfolio repository locally on your system, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/mallicksharique/My-Portfolio.git](https://github.com/mallicksharique/My-Portfolio.git)
+    cd My-Portfolio
+    ```
+
+2.  **Install project dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the local development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Build application for production deployment:**
+    ```bash
+    npm run build
+    ```
+
+---
+
+## 📄 License & Attribution
+
+Designed and Developed with ❤️ by **Md Sharique Alam** © 2026. All rights reserved.
+Feel free to fork this project, leave a 🌟 if you like the UI, or raise an issue for code enhancements!
